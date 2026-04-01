@@ -44,7 +44,7 @@ and run all cells
 ```python
 from ultralytics import YOLO
 model = YOLO("runs/classify/train/weights/best.pt")
-results = model.predict("dataset/test/your_image.jpg")
+results = model.predict("dataset/test/*your_image.jpg*")
 ```
 ## Output Example
 ```
